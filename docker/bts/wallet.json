@@ -1,0 +1,123 @@
+{
+  "chain_id": "92e31f3a1e262c773eb2d3d7741b0d7a75ff91ded998759fb1611014d9310378",
+  "my_accounts": [{
+      "id": "1.2.17",
+      "membership_expiration_date": "1970-01-01T00:00:00",
+      "registrar": "1.2.4",
+      "referrer": "1.2.0",
+      "lifetime_referrer": "1.2.0",
+      "network_fee_percentage": 2000,
+      "lifetime_referrer_fee_percentage": 3000,
+      "referrer_rewards_percentage": 0,
+      "name": "nathan",
+      "owner": {
+        "weight_threshold": 1,
+        "account_auths": [],
+        "key_auths": [[
+            "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+            1
+          ]
+        ],
+        "address_auths": []
+      },
+      "active": {
+        "weight_threshold": 1,
+        "account_auths": [],
+        "key_auths": [[
+            "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+            1
+          ]
+        ],
+        "address_auths": []
+      },
+      "options": {
+        "memo_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+        "voting_account": "1.2.5",
+        "num_witness": 0,
+        "num_committee": 0,
+        "votes": [],
+        "extensions": []
+      },
+      "statistics": "2.6.17",
+      "whitelisting_accounts": [],
+      "blacklisting_accounts": [],
+      "whitelisted_accounts": [],
+      "blacklisted_accounts": [],
+      "owner_special_authority": [
+        0,{}
+      ],
+      "active_special_authority": [
+        0,{}
+      ],
+      "top_n_control_flags": 0
+    },{
+      "id": "1.2.18",
+      "membership_expiration_date": "1969-12-31T23:59:59",
+      "registrar": "1.2.18",
+      "referrer": "1.2.18",
+      "lifetime_referrer": "1.2.18",
+      "network_fee_percentage": 2000,
+      "lifetime_referrer_fee_percentage": 8000,
+      "referrer_rewards_percentage": 0,
+      "name": "cryptobridge",
+      "owner": {
+        "weight_threshold": 1,
+        "account_auths": [],
+        "key_auths": [[
+            "BTS74ePvhPVtYw79orHZkHgfpGr5vRJ1ZPyDDZcCBEg275DGpCy8k",
+            1
+          ]
+        ],
+        "address_auths": []
+      },
+      "active": {
+        "weight_threshold": 1,
+        "account_auths": [],
+        "key_auths": [[
+            "BTS74ePvhPVtYw79orHZkHgfpGr5vRJ1ZPyDDZcCBEg275DGpCy8k",
+            1
+          ]
+        ],
+        "address_auths": []
+      },
+      "options": {
+        "memo_key": "BTS74ePvhPVtYw79orHZkHgfpGr5vRJ1ZPyDDZcCBEg275DGpCy8k",
+        "voting_account": "1.2.5",
+        "num_witness": 0,
+        "num_committee": 0,
+        "votes": [],
+        "extensions": []
+      },
+      "statistics": "2.6.18",
+      "whitelisting_accounts": [],
+      "blacklisting_accounts": [],
+      "whitelisted_accounts": [],
+      "blacklisted_accounts": [],
+      "owner_special_authority": [
+        0,{}
+      ],
+      "active_special_authority": [
+        0,{}
+      ],
+      "top_n_control_flags": 0
+    }
+  ],
+  "cipher_keys": "44664f6039f0c08c94b3481b4e9ab5b7dfe0d0f126e4a2f7b29d772145c15bf5ccb88979ba52c069949bb54a0d409b41a374d44d6e94b3efc55223b5105ed1b01d6e39c70aff92fe57ce6f62d4ac9e5eafa66acc6c0bada0c63f65821ac8320bcb42b7ca8715ab918567479c1337b2a8fe8afceca39ac1ebd60b678afd57862aee1b6ba01e548c31a02f847b18d5cae9106e700fb938a6b795258de47ebcc3673878faafda3edb54d620327f812418d73df46d7fba08c43eb2a9546e16196e4de04c715d51661be9ef806220c1ae753a9429b838c2ee30659ddbb99bfba9a9edbf1ad73aef2d02b77414a004c6e4efc7",
+  "extra_keys": [[
+      "1.2.17",[
+        "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      ]
+    ],[
+      "1.2.18",[
+        "BTS74ePvhPVtYw79orHZkHgfpGr5vRJ1ZPyDDZcCBEg275DGpCy8k"
+      ]
+    ]
+  ],
+  "pending_account_registrations": [],
+  "pending_witness_registrations": [],
+  "labeled_keys": [],
+  "blind_receipts": [],
+  "ws_server": "ws://localhost:8090",
+  "ws_user": "",
+  "ws_password": ""
+}

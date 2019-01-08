@@ -1,0 +1,26 @@
+version: '3.6'
+
+services:
+  bts:
+    image: bitshares/bitshares-core
+    entrypoint: ["/usr/local/bin/bts-entry.sh"]
+    command: []
+    ports:
+      - 8090:8090
+    networks:
+      - develop
+    volumes:
+      - ./docker/bts/bts-entry.sh:/usr/local/bin/bts-entry.sh
+      - ./docker/bts/config.ini:/etc/bitshares/config.ini
+      - ./docker/bts/bts-genesis.json:/etc/bitshares/bts-genesis.json
+      - ./docker/bts/bts-api-access.json:/etc/bitshares/bts-api-access.json
+      - ./docker/bts/wallet.json:/var/lib/bitshares/wallet.json
+      - ./data/bts/blockchain:/var/lib/bitshares/blockchain
+
+volumes:
+  db:
+    driver: local
+
+networks:
+  develop:
+    driver: bridge
